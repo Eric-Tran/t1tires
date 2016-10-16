@@ -49,7 +49,8 @@ process.env.BABEL_ENV = TARGET;
 				test: /\.(jpg|png)$/,
 				loader: 'file?name=[path][name].[hash].[ext]',
 				include: PATHS.images
-			}
+			},
+			{ test: /\.json$/, loader: "json-loader" }
 		]
 	},
 	plugins: [
