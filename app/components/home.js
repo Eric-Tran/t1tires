@@ -47,7 +47,6 @@ export default class Home extends Component {
 						<div className="appt-box">
 							<h2>Schedule Appointment</h2>
 							<Panel>
-
 							</Panel>
 						</div>
 					</div>
