@@ -63,9 +63,25 @@ html {
 					padding: 6px 20px;
 				}
 			}
-			.service-panel {
-				img {
-					width: 100%;
+			.bottom-content {
+				// display: flex;
+				// flex-direction: row;
+				width: 100%;
+				h2 {
+					margin-top: 0;
+				}
+				.service-box {
+					// flex-grow: 1;
+					padding: 20px;
+				}
+				.appt-box {
+					// flex-grow: 2;
+					padding: 20px;
+				}
+				.service-panel {
+					img {
+						width: 100%;
+					}
 				}
 			}
 			.line {

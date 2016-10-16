@@ -41,11 +41,15 @@ process.env.BABEL_ENV = TARGET;
   		loaders: [
 		   {
 		   	exclude: /node_modules/,
-		   	test: /\.jsx?$/,
+		   	test: /\.js?$/,
 		      loaders: ['babel?cacheDirectory'],
 		      include: PATHS.app
 		   },
-		   { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' }
+		   {
+				test: /\.(jpg|png)$/,
+				loader: 'file?name=[path][name].[hash].[ext]',
+				include: PATHS.images
+			}
 		]
 	},
 	plugins: [
@@ -109,6 +113,9 @@ if(TARGET === 'build' || TARGET === 'stats') {
 			//You can filter out dependencies here if needed with
 			// '.filter(...)'.
 			vendor: Object.keys(pkg.dependencies)
+		},
+		externals: {
+			express: "Express"
 		},
 		output: {
 			path: PATHS.build,

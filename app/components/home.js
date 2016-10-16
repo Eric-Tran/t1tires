@@ -37,10 +37,20 @@ export default class Home extends Component {
 						</Panel>
 					</div>
 					<hr className="line" />
-					<h2>Our Service Area</h2>
-					<Panel className="service-panel">
-						<img src="app/images/servicemap.png" />
-					</Panel>
+					<div className="bottom-content">
+						<div className="service-box">
+							<h2>Our Service Area</h2>
+							<Panel className="service-panel">
+							<img src="app/images/servicemap.png" />
+							</Panel>
+						</div>
+						<div className="appt-box">
+							<h2>Schedule Appointment</h2>
+							<Panel>
+
+							</Panel>
+						</div>
+					</div>
 
 				</div>
 
