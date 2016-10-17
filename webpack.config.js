@@ -116,6 +116,7 @@ if(TARGET === 'build' || TARGET === 'stats') {
 			vendor: Object.keys(pkg.dependencies)
 		},
 		externals: {
+			request: "Request",
 			express: "Express"
 		},
 		output: {

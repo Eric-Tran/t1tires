@@ -44,6 +44,10 @@ html {
 	height: auto;
 	margin-top: 150px;
 }
+.npd-top {
+	margin-top: 0;
+	text-align: center;
+}
 
 //App Body
 .body-container {
@@ -53,9 +57,6 @@ html {
 	.home-container {
 		.container {
 			margin-top: 0;
-			h2 {
-				text-align: center;
-			}
 			.panel {
 				text-align: center;
 				.btn-danger {
@@ -67,9 +68,6 @@ html {
 				// display: flex;
 				// flex-direction: row;
 				width: 100%;
-				h2 {
-					margin-top: 0;
-				}
 				.service-box {
 					// flex-grow: 1;
 					padding: 20px;
@@ -77,6 +75,29 @@ html {
 				.appt-box {
 					// flex-grow: 2;
 					padding: 20px;
+				}
+				.appt-panel {
+					.form-group {
+						text-align: left;
+					}
+					display: flex;
+					flex-direction: row;
+					justify-content: space-around;
+					align-items: center;
+					.appt-well {
+						width: 40%;
+					// flex-grow: 1;
+					}
+					form {
+						.msg-text {
+							height: 100px;
+						}
+					}
+					.appt-right-box {
+						img {
+							width: 80%;
+						}
+					}
 				}
 				.service-panel {
 					img {
