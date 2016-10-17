@@ -86,7 +86,7 @@ export default class Home extends Component {
 									</form>
 									</Well>
 									<div className="appt-right-box">
-										<h2>Or Call Us 1(555) 555-5555.</h2>
+										<h2>Or Call Us <strong>1(555) 555-5555</strong>.</h2>
 										<img className="appt-img" src="app/images/mobile.png" />
 										<h2>Schedule Your Service Today!</h2>
 									</div>
