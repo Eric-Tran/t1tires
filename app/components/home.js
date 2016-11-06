@@ -21,9 +21,9 @@ export default class Home extends Component {
 					<hr className="line" />
 					<div className="box-wrapper">
 						<Panel className="info-box">
-							<h3>Lorem ipsum dolor sit amet</h3>
+							<h3>Our Mission</h3>
 							<img src="app/images/vision.png"></img>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>	
+							<p>T1 Tires mission is to provide our customers with exceptional customer service, competitive pricing and brands you can trust. For convenience we offer a value added service that comes straight to you to service your tire(s) needs. Let us take the hassle off your plate and give back your peace of mind. Our priority is safety and getting you back on the road with confidence in your tires.</p>	
 						</Panel>
 						<Panel className="info-box">
 							<h3>Duis aute irure dolor</h3>
@@ -86,7 +86,7 @@ export default class Home extends Component {
 									</form>
 									</Well>
 									<div className="appt-right-box">
-										<h2>Or Call Us <strong>1(555) 555-5555</strong>.</h2>
+										<h2>Or Call Us <strong>(661) 745-8826</strong>.</h2>
 										<img className="appt-img" src="app/images/mobile.png" />
 										<h2>Schedule Your Service Today!</h2>
 									</div>

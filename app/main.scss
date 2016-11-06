@@ -15,26 +15,32 @@ html {
 		}
 		h1 {
 			font-size: 42px;
-			font-weight: 400;
+			font-weight: 600;
 		}
 		h2 {
 			font-size: 25px;
-			font-weight: 400;
+			font-weight: 600;
 		}
 		h3 {
 		margin-top: 20px;
 		font-size: 20px;
-		font-weight: normal;
+		font-weight: 600;
+		}
+		h4 {
+			font-size: 20px;
+			line-height: 30px;
 		}
 		a {
 			cursor: pointer;
 		}
 		p {
 			font-size: 16px;
+			line-height: 25px;
 		}
 	}
 }
 
+//MISC
 .panel {
 	box-shadow: 2px 2px 2px #aaa;
 	border: 1px solid #ccc;
@@ -48,93 +54,20 @@ html {
 	margin-top: 0;
 	text-align: center;
 }
-
-//App Body
-.body-container {
-	margin-top: 150px;
-
-//Home Component
-	.home-container {
-		.container {
-			margin-top: 0;
-			.panel {
-				text-align: center;
-				.btn-danger {
-					font-size: 18px;
-					padding: 6px 20px;
-				}
-			}
-			.bottom-content {
-				// display: flex;
-				// flex-direction: row;
-				width: 100%;
-				.service-box {
-					// flex-grow: 1;
-					padding: 20px;
-				}
-				.appt-box {
-					// flex-grow: 2;
-					padding: 20px;
-				}
-				.appt-panel {
-					.form-group {
-						text-align: left;
-					}
-					display: flex;
-					flex-direction: row;
-					justify-content: space-around;
-					align-items: center;
-					.appt-well {
-						width: 40%;
-					// flex-grow: 1;
-					}
-					form {
-						.msg-text {
-							height: 100px;
-						}
-					}
-					.appt-right-box {
-						img {
-							width: 80%;
-						}
-					}
-				}
-				.service-panel {
-					img {
-						width: 100%;
-					}
-				}
-			}
-			.line {
-				margin-top: 40px;
-				margin-bottom: 40px;
-				border-top: 2px solid black;
-			}
-			.box-wrapper {
-				display: flex;
-				flex-direction: row;
-				.info-box {
-					padding: 15px;
-					flex-grow: 1;
-					margin: 10px;
-					height: 500px;
-					img {
-						width:100%;
-						height: 150px;
-						margin-bottom: 25px;
-					}
-				}
-			}
-		}
-	}
-}
-
 .no-side-padding {
 	padding-left: 0;
 	padding-right: 0;
 }
 
-
+.panel-body {
+	padding: 20px;
+}
+.center {
+	text-align: center;
+}
+.font-lg {
+	font-size: 26px;
+}
 //Navigation
 .header {
 		width: 100%;
@@ -223,3 +156,147 @@ background: linear-gradient(to left, #F00000 , #DC281E); /* W3C, IE 10+/ Edge, F
 		}
 	}
 }
+
+//Page header
+.container-header {
+	.panel {
+		margin-top: 20px;
+		text-align: center;
+		.btn-danger {
+			font-size: 18px;
+			padding: 6px 20px;
+		}
+	}
+	.line {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		border-top: 2px solid black;
+	}
+	h1 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+
+//App Body
+.body-container {
+	margin-top: 150px;
+
+//Home Component
+	.home-container {
+		.container {
+			margin-top: 0;
+			.panel {
+				text-align: center;
+				.btn-danger {
+					font-size: 18px;
+					padding: 6px 20px;
+				}
+			}
+			.bottom-content {
+				// display: flex;
+				// flex-direction: row;
+				width: 100%;
+				.service-box {
+					// flex-grow: 1;
+					padding: 20px;
+				}
+				.appt-box {
+					// flex-grow: 2;
+					padding: 20px;
+				}
+				.appt-panel {
+					.form-group {
+						text-align: left;
+					}
+					display: flex;
+					flex-direction: row;
+					justify-content: space-around;
+					align-items: center;
+					.appt-well {
+						width: 40%;
+					// flex-grow: 1;
+					}
+					form {
+						.msg-text {
+							height: 100px;
+						}
+					}
+					.appt-right-box {
+						img {
+							width: 80%;
+						}
+					}
+				}
+				.service-panel {
+					img {
+						width: 100%;
+					}
+				}
+			}
+			.line {
+				margin-top: 40px;
+				margin-bottom: 40px;
+				border-top: 2px solid black;
+			}
+			.box-wrapper {
+				display: flex;
+				flex-direction: row;
+				.info-box {
+					padding: 15px;
+					flex-grow: 1;
+					margin: 10px;
+					img {
+						height: 150px;
+						margin-bottom: 25px;
+					}
+				}
+			}
+		}
+	}
+}
+
+//About Container
+.about-container {
+	h1 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.line {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		border-top: 2px solid black;
+	}
+	.about-top {
+		display: flex;
+		flex-direction: row;
+		img {
+			height: 50%;
+			width: 50%;
+			margin-right: 30px;
+		}
+	}
+
+}
+
+//MEDIA QUERIES
+@media all and (max-width: 1050px) {
+	.box-wrapper {
+		flex-direction: column !important;
+		.info-box img {
+			height: 100% !important;
+		}
+	}
+	.appt-panel {
+		flex-direction: column !important;
+		.appt-well {
+			width: 100% !important;
+		}
+	}
+	.navbar-nav {
+		margin-left: 0 !important;
+	}
+}
+
+
+

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, IndexLink } from 'react-router';
 import * as actions from '../actions/index'
+import { Navbar } from 'react-bootstrap'
 
 export default class Header extends Component {
 
