@@ -16,7 +16,24 @@ export default class Contact extends Component {
 							<Button bsStyle="danger">Schedule Service Today!</Button>
 						</Panel>
 						<hr className="line" />
-						<h1>Contact</h1>
+					<Panel>
+						<h1>Contact Us</h1>
+						<div className="flex-parent">
+							<div className="left-flex">
+								<h4>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</h4>
+								<h4>
+									<strong>Contact</strong><br/>
+									Service@t1tires.com | 661-745-8826<br/><br/>
+									<strong>Mailing Address</strong><br/>
+									829 W. Palmdale Blvd. Suite 129
+									Palmdale, CA 93551
+								</h4>
+							</div>
+							<div className="right-flex">
+								<img src="app/images/palmdale.png" />
+							</div>
+						</div>
+					</Panel>
 					</div>
 				</div>
 			</div>

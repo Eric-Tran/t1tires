@@ -77,8 +77,16 @@ export default class Home extends Component {
 									      <FormControl type="text" placeholder="Enter Phone Number" />
 									   </FormGroup>
 									   <FormGroup controlId="formControlsTextarea">
+									      <ControlLabel>Date:</ControlLabel>
+									      <FormControl type="date" placeholder="Enter Phone Number" />
+									   </FormGroup>
+									   <FormGroup controlId="formControlsTextarea">
+									      <ControlLabel>Time:</ControlLabel>
+									      <FormControl type="time" placeholder="Enter Phone Number" />
+									   </FormGroup>
+									   <FormGroup controlId="formControlsTextarea">
 									      <ControlLabel>Message (optional):</ControlLabel>
-									      <FormControl className="msg-text" componentClass="textarea" placeholder="textarea" />
+									      <FormControl className="msg-text" componentClass="textarea" placeholder="Enter a message..." />
 								    </FormGroup>
 								     <Button bsStyle="danger" type="submit">
 								      	Submit

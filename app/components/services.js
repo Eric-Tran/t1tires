@@ -16,7 +16,17 @@ export default class Services extends Component {
 							<Button bsStyle="danger">Schedule Service Today!</Button>
 						</Panel>
 						<hr className="line" />
-						<h1>Services</h1>
+						<Panel>
+							<h1>Services</h1>
+							<h4>
+								Demounting and mounting:<br/><br/>
+								Balancing:<br/><br/>
+								Disposal of old tire(s):<br/><br/>
+								Valve stems:<br/><br/>
+								Rotation:
+							</h4>
+
+						</Panel>
 					</div>
 				</div>
 			</div>

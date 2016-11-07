@@ -215,7 +215,7 @@ background: linear-gradient(to left, #F00000 , #DC281E); /* W3C, IE 10+/ Edge, F
 					align-items: center;
 					.appt-well {
 						width: 40%;
-					// flex-grow: 1;
+						margin-bottom: 0 !important;
 					}
 					form {
 						.msg-text {
@@ -276,7 +276,39 @@ background: linear-gradient(to left, #F00000 , #DC281E); /* W3C, IE 10+/ Edge, F
 			margin-right: 30px;
 		}
 	}
+	.flex-parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		.flex-item {
+			width: 48%;
+			img {
+				width: 100%;
+			}
+		}
+	}
 
+}
+
+//Contact Container
+.contact-container {
+	.flex-parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		.left-flex {
+			width: 48%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.right-flex {
+			width: 48%;
+			img {
+				width: 100%;
+			}
+		}
+	}
 }
 
 //MEDIA QUERIES
