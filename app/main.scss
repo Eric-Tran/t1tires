@@ -280,8 +280,12 @@ background: linear-gradient(to left, #F00000 , #DC281E); /* W3C, IE 10+/ Edge, F
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+		align-content: space-between;
 		.flex-item {
 			width: 48%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
 			img {
 				width: 100%;
 			}

@@ -30,9 +30,9 @@ export default class About extends Component {
 				<h4 className="center font-lg">Get a quote, set appointment, and wheel come to you!</h4><br/>
 				<div className="flex-parent">
 					<div className="flex-item">
-						<h4><strong>1.</strong> You can get a quote from us by contacting us at <br/><strong>(661) 745-8826</strong> or by email to <strong>sales@t1tires.com</strong></h4><br/>
-						<h4><strong>2.</strong> The quote will be given as installed pricing which means what you see is what you pay. There will be no hidden fees that will surprise you. Installed pricing will include price of tire(s), sales tax, mounting, balancing, and disposal of old tires.</h4><br/>
-						<h4><strong>3.</strong> Once you agree on the pricing the next step would be to make an appointment for our technician to come and service your tire(s). This can be done through our website <strong>www.t1tires.com</strong> or by calling us at <strong>(661) 745-8826</strong>.</h4><br/>
+						<h4><strong>1.</strong> You can get a quote from us by contacting us at <br/><strong>(661) 745-8826</strong> or by email to <strong>sales@t1tires.com</strong></h4>
+						<h4><strong>2.</strong> The quote will be given as installed pricing which means what you see is what you pay. There will be no hidden fees that will surprise you. Installed pricing will include price of tire(s), sales tax, mounting, balancing, and disposal of old tires.</h4>
+						<h4><strong>3.</strong> Once you agree on the pricing the next step would be to make an appointment for our technician to come and service your tire(s). This can be done through our website <strong>www.t1tires.com</strong> or by calling us at <strong>(661) 745-8826</strong>.</h4>
 						<h4><strong>4.</strong> The day of the appointment just sit back and relax while we do all the work. </h4>
 					</div>
 					<div className="flex-item">
