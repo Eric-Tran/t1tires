@@ -30,7 +30,7 @@ export default class Header extends Component {
 					<div className='container-fluid'>
 						<div className="navbar-header">
 							<Link to="/" className="navbar-brand"><img src="app/images/tirelogo1.png" /></Link>
-							<ul className="nav navbar-nav">
+							{ /* <ul className="nav navbar-nav">
 								<li className="nav-item">
 									<IndexLink className="nav-link" activeClassName="active" to="/">Home</IndexLink>
 								</li>
@@ -49,7 +49,7 @@ export default class Header extends Component {
 								<li className="nav-item">
 									<Link className="nav-link" activeClassName="active" to="/contact">Contact</Link>
 								</li>
-							</ul>
+							</ul> */ }
 						</div>
 					</div>
 				</nav>
